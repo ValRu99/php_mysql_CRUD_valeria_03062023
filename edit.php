@@ -39,7 +39,7 @@ if(isset($_POST['update'])){
   mysqli_query($conn, $query);
 
   $_SESSION['message'] = 'Task Update Successfully';
-  $_SESSION['message-type'] = 'warning';
+  $_SESSION['message_type'] = 'warning';
   header('Location: index.php');
 }
 
