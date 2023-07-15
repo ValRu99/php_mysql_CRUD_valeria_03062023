@@ -59,7 +59,7 @@ if(isset($_POST['update'])){
           </div>
 
           <div class="form-group mb-3">
-            <input type="file" name="image" class="form-contro mb-3" >
+            <input type="file" name="image" class="form-control mb-3">
             <img src="image.php?id=<?php echo $row['id']?>" alt="image" class="w-100">
           </div>
           
